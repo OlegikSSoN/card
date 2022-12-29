@@ -3,7 +3,9 @@ main {
   border: 1px rgb(207, 207, 207);
   display: flex;
   min-height: 100px;
-  gap: 10px;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 img {
@@ -15,13 +17,13 @@ img {
 .card {
   background-color: rgb(240, 240, 240);
   display: flex;
-  width: 100%;
+  width: 600px;
   height: 100%;
   color: #000;
   position: relative;
   z-index: 1px;
-  border: thick solid rgb(143, 143, 143);
   border-radius: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .card-photo {
